@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #3FAF82;
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.menu__bars-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu__bar {
+  width: 70px;
+  height: 7px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px 1px #444;
+  margin-bottom: 15px;
+  opacity: 100%;
+  transition: margin .5s, transform .5s, opacity .5s;
+}
